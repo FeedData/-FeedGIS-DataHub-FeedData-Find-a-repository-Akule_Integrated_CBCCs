@@ -282,7 +282,8 @@ var onPointerMove = function(evt) {
                 } else {
                     highlightStyle = new ol.style.Style({
                         fill: new ol.style.Fill({
-                            color: '#ffff00'
+                            color: '#ffff00',
+                            // opacity: '0.1'
                         })
                     })
                 }
